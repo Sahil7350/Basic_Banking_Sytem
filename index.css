@@ -1,0 +1,133 @@
+body{
+ background:lightgrey; 
+ text-align:center;
+ 
+ 
+}
+h1{
+	padding:10px;
+	text-align:center;
+	
+}
+button{
+
+}
+.title{
+	height:50px;
+}
+
+table.customer{
+	position:relative;
+	top:5%;
+	left:15%;
+	background-color:white;
+	width:400px;
+	overflow:scroll;
+    height:60px;
+	
+	
+}
+.title{
+	font-size:50px;
+}
+
+.navbar{
+    font-size:30px ;
+    background-color:#807d7d;
+    padding: 40px 0 40px 0;
+    text-align: center;
+	color:White;
+}
+
+footer{
+    width: 100%;
+    background:#807d7d;
+    position: fixed;
+    text-align: center;
+    padding: 10px 0 10px 0;
+	bottom:0px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #2abfc9;
+}
+
+
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position:fixed;
+  width: 15%;
+  top:24%;
+  right:20%;
+
+}
+.Cbutton{
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position:fixed;
+  left:21%;
+  top:24%;
+  width:15%;
+
+}
+.Tbutton{
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position:fixed;
+  left:42%;
+  top:24%;
+  width:15%;
+
+}
+
+table, th, td {
+  
+padding:5px;
+  
+  
+  
+}
+th
+  {
+    background-color:#c2c2a3;
+    color:black;
+  }
+tr{
+	background-color:#f6f6ee;
+	color:black;
+}  
+.btn{
+	width:80px;
+}  
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  right:15%;
+  top:35%;
+  width:350px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 350px;
+  padding: 10px;
+  background-color: #f6f6ee;
+}
